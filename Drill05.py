@@ -14,7 +14,7 @@ def run_203_to_132():
             character_run.clip_draw(frame * 100, 0, 100, 100, x, y)
             update_canvas()
             frame = (frame + 1) % 8
-            x -= 2
+            x -= 10
             delay(0.05)
         else:
             clear_canvas_now()
@@ -22,7 +22,7 @@ def run_203_to_132():
             character_run.clip_draw(frame * 100, 0, 100, 100, x, y)
             update_canvas()
             frame = (frame + 1) % 8
-            y -= 2
+            y -= 10
             delay(0.05)
 
 def run_132_to_535():
@@ -34,7 +34,7 @@ def run_132_to_535():
             character_run.clip_draw(frame * 100, 100, 100, 100, x, y)
             update_canvas()
             frame = (frame + 1) % 8
-            x += 2
+            x += 10
             delay(0.05)
         else:
             clear_canvas_now()
@@ -42,7 +42,7 @@ def run_132_to_535():
             character_run.clip_draw(frame * 100, 100, 100, 100, x, y)
             update_canvas()
             frame = (frame + 1) % 8
-            y += 2
+            y += 10
             delay(0.05)
 
 def run_535_to_477():
@@ -54,7 +54,7 @@ def run_535_to_477():
             character_run.clip_draw(frame * 100, 0, 100, 100, x, y)
             update_canvas()
             frame = (frame + 1) % 8
-            x -= 2
+            x -= 10
             delay(0.05)
         else:
             clear_canvas_now()
@@ -62,7 +62,7 @@ def run_535_to_477():
             character_run.clip_draw(frame * 100, 0, 100, 100, x, y)
             update_canvas()
             frame = (frame + 1) % 8
-            y -= 2
+            y -= 10
             delay(0.05)
 
 def run_477_to_715():
@@ -74,7 +74,7 @@ def run_477_to_715():
             character_run.clip_draw(frame * 100, 100, 100, 100, x, y)
             update_canvas()
             frame = (frame + 1) % 8
-            x += 2
+            x += 10
             delay(0.05)
         else:
             clear_canvas_now()
@@ -82,7 +82,7 @@ def run_477_to_715():
             character_run.clip_draw(frame * 100, 100, 100, 100, x, y)
             update_canvas()
             frame = (frame + 1) % 8
-            y -= 2
+            y -= 10
             delay(0.05)
 def run_715_to_316():
     x, y, frame = 715, 136, 0
@@ -93,7 +93,7 @@ def run_715_to_316():
             character_run.clip_draw(frame * 100, 0, 100, 100, x, y)
             update_canvas()
             frame = (frame + 1) % 8
-            x -= 2
+            x -= 10
             delay(0.05)
         else:
             clear_canvas_now()
@@ -101,7 +101,7 @@ def run_715_to_316():
             character_run.clip_draw(frame * 100, 0, 100, 100, x, y)
             update_canvas()
             frame = (frame + 1) % 8
-            y += 2
+            y += 10
             delay(0.05)
 def run_316_to_510():
     x, y, frame = 316, 225, 0
@@ -112,7 +112,7 @@ def run_316_to_510():
             character_run.clip_draw(frame * 100, 100, 100, 100, x, y)
             update_canvas()
             frame = (frame + 1) % 8
-            x += 2
+            x += 10
             delay(0.05)
         else:
             clear_canvas_now()
@@ -120,7 +120,7 @@ def run_316_to_510():
             character_run.clip_draw(frame * 100, 100, 100, 100, x, y)
             update_canvas()
             frame = (frame + 1) % 8
-            y -= 2
+            y -= 10
             delay(0.05)
 def run_510_to_692():
     x, y, frame = 510, 92, 0
@@ -131,7 +131,7 @@ def run_510_to_692():
             character_run.clip_draw(frame * 100, 100, 100, 100, x, y)
             update_canvas()
             frame = (frame + 1) % 8
-            x += 2
+            x += 10
             delay(0.05)
         else:
             clear_canvas_now()
@@ -139,7 +139,7 @@ def run_510_to_692():
             character_run.clip_draw(frame * 100, 100, 100, 100, x, y)
             update_canvas()
             frame = (frame + 1) % 8
-            y += 2
+            y += 10
             delay(0.05)
 def run_692_to_682():
     x, y, frame = 692, 518, 0
@@ -150,7 +150,7 @@ def run_692_to_682():
             character_run.clip_draw(frame * 100, 0, 100, 100, x, y)
             update_canvas()
             frame = (frame + 1) % 8
-            x -= 2
+            x -= 10
             delay(0.05)
         else:
             clear_canvas_now()
@@ -158,7 +158,7 @@ def run_692_to_682():
             character_run.clip_draw(frame * 100, 0, 100, 100, x, y)
             update_canvas()
             frame = (frame + 1) % 8
-            y -= 2
+            y -= 10
             delay(0.05)
 def run_682_to_712():
     x, y, frame = 682, 336, 0
@@ -169,7 +169,7 @@ def run_682_to_712():
             character_run.clip_draw(frame * 100, 100, 100, 100, x, y)
             update_canvas()
             frame = (frame + 1) % 8
-            x += 2
+            x += 10
             delay(0.05)
         else:
             clear_canvas_now()
@@ -177,7 +177,7 @@ def run_682_to_712():
             character_run.clip_draw(frame * 100, 100, 100, 100, x, y)
             update_canvas()
             frame = (frame + 1) % 8
-            y += 2
+            y += 10
             delay(0.05)
 def run_712_to_203():
     x, y, frame = 712, 349, 0
@@ -188,7 +188,7 @@ def run_712_to_203():
             character_run.clip_draw(frame * 100, 0, 100, 100, x, y)
             update_canvas()
             frame = (frame + 1) % 8
-            x -= 2
+            x -= 10
             delay(0.05)
         else:
             clear_canvas_now()
@@ -196,19 +196,19 @@ def run_712_to_203():
             character_run.clip_draw(frame * 100, 0, 100, 100, x, y)
             update_canvas()
             frame = (frame + 1) % 8
-            y += 2
+            y += 10
             delay(0.05)
 
 while True:
-    #run_203_to_132()
-    #run_132_to_535()
-    #run_535_to_477()
-    #run_477_to_715()
-    #run_715_to_316()
-    #run_316_to_510()
-    #run_510_to_692()
-    #run_692_to_682()
-    #run_682_to_712()
+    run_203_to_132()
+    run_132_to_535()
+    run_535_to_477()
+    run_477_to_715()
+    run_715_to_316()
+    run_316_to_510()
+    run_510_to_692()
+    run_692_to_682()
+    run_682_to_712()
     run_712_to_203()
     
 close_canvas()
