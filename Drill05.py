@@ -6,7 +6,25 @@ grass = load_image('grass.png')
 character_run = load_image('animation_sheet.png')
 
 def run_203_to_132():
-    pass
+    x,y,frame = 203,535,0
+    while y > 243:
+        if x > 132:
+            clear_canvas_now()
+            grass.draw_now(400, 30)
+            character_run.clip_draw(frame * 100, 0, 100, 100, x, y)
+            update_canvas()
+            frame = (frame + 1) % 8
+            x -= 2
+            delay(0.05)
+        else:
+            clear_canvas_now()
+            grass.draw_now(400, 30)
+            character_run.clip_draw(frame * 100, 0, 100, 100, x, y)
+            update_canvas()
+            frame = (frame + 1) % 8
+            y -= 2
+            delay(0.05)
+
 def run_132_to_535():
     pass
 def run_535_to_477():
