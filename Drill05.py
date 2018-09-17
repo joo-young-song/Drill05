@@ -104,7 +104,24 @@ def run_715_to_316():
             y += 2
             delay(0.05)
 def run_316_to_510():
-    pass
+    x, y, frame = 316, 225, 0
+    while y > 92:
+        if x < 510:
+            clear_canvas_now()
+            grass.draw_now(400, 30)
+            character_run.clip_draw(frame * 100, 100, 100, 100, x, y)
+            update_canvas()
+            frame = (frame + 1) % 8
+            x += 2
+            delay(0.05)
+        else:
+            clear_canvas_now()
+            grass.draw_now(400, 30)
+            character_run.clip_draw(frame * 100, 100, 100, 100, x, y)
+            update_canvas()
+            frame = (frame + 1) % 8
+            y -= 2
+            delay(0.05)
 def run_510_to_692():
     pass
 def run_692_to_682():
@@ -118,8 +135,8 @@ while True:
     #run_203_to_132()
     #run_132_to_535()
     #run_535_to_477()
-    # run_477_to_715()
-    run_715_to_316()
+    #run_477_to_715()
+    #run_715_to_316()
     run_316_to_510()
     run_510_to_692()
     run_692_to_682()
