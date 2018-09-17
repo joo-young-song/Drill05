@@ -50,6 +50,8 @@ def move_from_left_to_center():
         x += 2
         delay(0.01)
 
+def move_circle():
+    pass
 
 
 def make_rectangle():
@@ -57,10 +59,11 @@ def make_rectangle():
     # move_up()
     # move_left()
     # move_down()
-    move_from_left_to_center()
+    # move_from_left_to_center()
+    pass
 
 def make_circle():
-    pass
+    move_circle()
 
 while True:
     make_rectangle()
