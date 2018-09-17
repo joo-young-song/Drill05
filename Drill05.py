@@ -5,6 +5,7 @@ open_canvas()
 grass = load_image('grass.png')
 character_run = load_image('animation_sheet.png')
 
+
 def run_203_to_132():
     x,y,frame = 203,535,0
     while y > 243:
