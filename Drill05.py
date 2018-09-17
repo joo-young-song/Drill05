@@ -24,7 +24,6 @@ def run_203_to_132():
             frame = (frame + 1) % 8
             y -= 10
             delay(0.05)
-
 def run_132_to_535():
     x, y, frame = 132, 243, 0
     while y < 470:
